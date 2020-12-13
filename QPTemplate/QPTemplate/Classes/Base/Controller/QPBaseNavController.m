@@ -18,10 +18,10 @@
     
     UINavigationBar *navBar = [UINavigationBar appearance];
     navBar.translucent = NO;
-    navBar.tintColor = [UIColor whiteColor];
-    navBar.barTintColor = [UIColor orangeColor];
+    navBar.tintColor = kWhiteColor;
+    navBar.barTintColor = kMainColor;
     [navBar setTitleTextAttributes:@{
-        NSFontAttributeName: [UIFont systemFontOfSize:20],
+        NSFontAttributeName: [UIFont systemFontOfSize:18 weight:UIFontWeightBold],
         NSForegroundColorAttributeName: [UIColor whiteColor],
 //        NSBackgroundColorAttributeName: [UIColor redColor]
     }];

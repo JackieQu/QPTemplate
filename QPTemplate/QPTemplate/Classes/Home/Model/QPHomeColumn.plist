@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>defaultIndex</key>
+	<integer>1</integer>
+	<key>columnList</key>
+	<array>
+		<dict>
+			<key>show</key>
+			<true/>
+			<key>vcName</key>
+			<string>QPHomeFollowViewController</string>
+			<key>vcTitle</key>
+			<string>关注</string>
+		</dict>
+		<dict>
+			<key>show</key>
+			<true/>
+			<key>vcName</key>
+			<string>QPHomeRecommendViewController</string>
+			<key>vcTitle</key>
+			<string>推荐</string>
+		</dict>
+		<dict>
+			<key>show</key>
+			<true/>
+			<key>vcName</key>
+			<string>QPHomeLatestViewController</string>
+			<key>vcTitle</key>
+			<string>最新</string>
+		</dict>
+		<dict>
+			<key>show</key>
+			<true/>
+			<key>vcName</key>
+			<string>QPHomeVideoViewController</string>
+			<key>vcTitle</key>
+			<string>视频</string>
+		</dict>
+		<dict>
+			<key>show</key>
+			<true/>
+			<key>vcName</key>
+			<string>QPHomeImageViewController</string>
+			<key>vcTitle</key>
+			<string>图片</string>
+		</dict>
+		<dict>
+			<key>show</key>
+			<true/>
+			<key>vcName</key>
+			<string>QPHomeTextViewController</string>
+			<key>vcTitle</key>
+			<string>短文</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -3,10 +3,24 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2801ECFC2586523500E5B3F0 /* QPHomeFollowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2801ECFB2586523500E5B3F0 /* QPHomeFollowViewController.m */; };
+		2801ED022586525900E5B3F0 /* QPHomeRecommendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2801ED012586525900E5B3F0 /* QPHomeRecommendViewController.m */; };
+		2801ED082586529100E5B3F0 /* QPHomeLatestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2801ED072586529100E5B3F0 /* QPHomeLatestViewController.m */; };
+		28856467258652D40034ACF4 /* QPHomeVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28856466258652D40034ACF4 /* QPHomeVideoViewController.m */; };
+		2885646D258652E10034ACF4 /* QPHomeImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2885646C258652E10034ACF4 /* QPHomeImageViewController.m */; };
+		28856473258652F00034ACF4 /* QPHomeTextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28856472258652F00034ACF4 /* QPHomeTextViewController.m */; };
+		28856479258654710034ACF4 /* QPHomeTitleListView.m in Sources */ = {isa = PBXBuildFile; fileRef = 28856478258654710034ACF4 /* QPHomeTitleListView.m */; };
+		2885647F258668890034ACF4 /* QPBaseTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2885647E258668890034ACF4 /* QPBaseTableView.m */; };
+		28856485258668970034ACF4 /* QPBaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 28856484258668970034ACF4 /* QPBaseTableViewCell.m */; };
+		2885648B258669700034ACF4 /* QPHomeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2885648A258669700034ACF4 /* QPHomeTableViewCell.m */; };
+		2885649125866F500034ACF4 /* QPArticleModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2885649025866F500034ACF4 /* QPArticleModel.m */; };
+		2885649725866F660034ACF4 /* QPHomeCellFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 2885649625866F660034ACF4 /* QPHomeCellFrame.m */; };
+		2885649D25867EDE0034ACF4 /* QPHomeColumnModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2885649C25867EDE0034ACF4 /* QPHomeColumnModel.m */; };
+		288564A225867F0E0034ACF4 /* QPHomeColumn.plist in Resources */ = {isa = PBXBuildFile; fileRef = 288564A125867F0E0034ACF4 /* QPHomeColumn.plist */; };
 		28CD8CBE2584B90000B0512F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28CD8CBC2584B90000B0512F /* Main.storyboard */; };
 		28CD8CC12584B90000B0512F /* QPTemplate.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 28CD8CBF2584B90000B0512F /* QPTemplate.xcdatamodeld */; };
 		28CD8CC32584B90000B0512F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28CD8CC22584B90000B0512F /* Assets.xcassets */; };
@@ -28,6 +42,20 @@
 		28CD8D8F2584DA8D00B0512F /* QPTestPushViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28CD8D8E2584DA8D00B0512F /* QPTestPushViewController.m */; };
 		28CD8D952584DA9700B0512F /* QPTestPresentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28CD8D942584DA9700B0512F /* QPTestPresentViewController.m */; };
 		28CD8D9B2584DD3A00B0512F /* UIColor+Random.m in Sources */ = {isa = PBXBuildFile; fileRef = 28CD8D9A2584DD3A00B0512F /* UIColor+Random.m */; };
+		28CD8DB22585D4F800B0512F /* QPHTTPManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 28CD8DB12585D4F800B0512F /* QPHTTPManager.m */; };
+		28CD8DBC2585E8CB00B0512F /* QPBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 28CD8DBB2585E8CB00B0512F /* QPBaseModel.m */; };
+		28CD8DC22585F67000B0512F /* QPCacheHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 28CD8DC12585F67000B0512F /* QPCacheHelper.m */; };
+		28CD8DC82585F68700B0512F /* QPEncryptHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 28CD8DC72585F68700B0512F /* QPEncryptHelper.m */; };
+		28CD8DCE2585F95B00B0512F /* QPTestURLModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 28CD8DCD2585F95B00B0512F /* QPTestURLModel.m */; };
+		28CD8DD42585F97500B0512F /* QPTestPublicKeyModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 28CD8DD32585F97500B0512F /* QPTestPublicKeyModel.m */; };
+		28CD8DDA2585FA1E00B0512F /* QPTestHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 28CD8DD92585FA1E00B0512F /* QPTestHandler.m */; };
+		28CD8DE12586001B00B0512F /* DDRSAWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 28CD8DE02586001B00B0512F /* DDRSAWrapper.m */; };
+		28CD8DE72586008800B0512F /* NSData+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 28CD8DE62586008800B0512F /* NSData+Hex.m */; };
+		28CD8E01258610CF00B0512F /* QPBaseTabBar.plist in Resources */ = {isa = PBXBuildFile; fileRef = 28CD8E00258610CF00B0512F /* QPBaseTabBar.plist */; };
+		28CD8E0C258619DC00B0512F /* QPBaseTabBarModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 28CD8E0B258619DC00B0512F /* QPBaseTabBarModel.m */; };
+		30CDF053CD585A9CA0209A87 /* Pods_QPTemplate_QPTemplateUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0B2711A2F3A504FBB13D54F /* Pods_QPTemplate_QPTemplateUITests.framework */; };
+		31E1A023A35927D596DB3CF5 /* Pods_QPTemplate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0CBD58B5B3D10C75545366B /* Pods_QPTemplate.framework */; };
+		986C48A28E50F55F7D3E9096 /* Pods_QPTemplateTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4142C3C9475AB26054AC52A1 /* Pods_QPTemplateTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +76,35 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		083FFC1BD195F2D86A007355 /* Pods-QPTemplate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QPTemplate.debug.xcconfig"; path = "Target Support Files/Pods-QPTemplate/Pods-QPTemplate.debug.xcconfig"; sourceTree = "<group>"; };
+		15075E47DAB932452CB131A9 /* Pods-QPTemplateTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QPTemplateTests.release.xcconfig"; path = "Target Support Files/Pods-QPTemplateTests/Pods-QPTemplateTests.release.xcconfig"; sourceTree = "<group>"; };
+		2801ECFA2586523500E5B3F0 /* QPHomeFollowViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QPHomeFollowViewController.h; sourceTree = "<group>"; };
+		2801ECFB2586523500E5B3F0 /* QPHomeFollowViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QPHomeFollowViewController.m; sourceTree = "<group>"; };
+		2801ED002586525900E5B3F0 /* QPHomeRecommendViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QPHomeRecommendViewController.h; sourceTree = "<group>"; };
+		2801ED012586525900E5B3F0 /* QPHomeRecommendViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QPHomeRecommendViewController.m; sourceTree = "<group>"; };
+		2801ED062586529100E5B3F0 /* QPHomeLatestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QPHomeLatestViewController.h; sourceTree = "<group>"; };
+		2801ED072586529100E5B3F0 /* QPHomeLatestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QPHomeLatestViewController.m; sourceTree = "<group>"; };
+		28856465258652D40034ACF4 /* QPHomeVideoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QPHomeVideoViewController.h; sourceTree = "<group>"; };
+		28856466258652D40034ACF4 /* QPHomeVideoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QPHomeVideoViewController.m; sourceTree = "<group>"; };
+		2885646B258652E10034ACF4 /* QPHomeImageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QPHomeImageViewController.h; sourceTree = "<group>"; };
+		2885646C258652E10034ACF4 /* QPHomeImageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QPHomeImageViewController.m; sourceTree = "<group>"; };
+		28856471258652F00034ACF4 /* QPHomeTextViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QPHomeTextViewController.h; sourceTree = "<group>"; };
+		28856472258652F00034ACF4 /* QPHomeTextViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QPHomeTextViewController.m; sourceTree = "<group>"; };
+		28856477258654710034ACF4 /* QPHomeTitleListView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QPHomeTitleListView.h; sourceTree = "<group>"; };
+		28856478258654710034ACF4 /* QPHomeTitleListView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QPHomeTitleListView.m; sourceTree = "<group>"; };
+		2885647D258668890034ACF4 /* QPBaseTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QPBaseTableView.h; sourceTree = "<group>"; };
+		2885647E258668890034ACF4 /* QPBaseTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QPBaseTableView.m; sourceTree = "<group>"; };
+		28856483258668970034ACF4 /* QPBaseTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QPBaseTableViewCell.h; sourceTree = "<group>"; };
+		28856484258668970034ACF4 /* QPBaseTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QPBaseTableViewCell.m; sourceTree = "<group>"; };
+		28856489258669700034ACF4 /* QPHomeTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QPHomeTableViewCell.h; sourceTree = "<group>"; };
+		2885648A258669700034ACF4 /* QPHomeTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QPHomeTableViewCell.m; sourceTree = "<group>"; };
+		2885648F25866F500034ACF4 /* QPArticleModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QPArticleModel.h; sourceTree = "<group>"; };
+		2885649025866F500034ACF4 /* QPArticleModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QPArticleModel.m; sourceTree = "<group>"; };
+		2885649525866F660034ACF4 /* QPHomeCellFrame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QPHomeCellFrame.h; sourceTree = "<group>"; };
+		2885649625866F660034ACF4 /* QPHomeCellFrame.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QPHomeCellFrame.m; sourceTree = "<group>"; };
+		2885649B25867EDE0034ACF4 /* QPHomeColumnModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QPHomeColumnModel.h; sourceTree = "<group>"; };
+		2885649C25867EDE0034ACF4 /* QPHomeColumnModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QPHomeColumnModel.m; sourceTree = "<group>"; };
+		288564A125867F0E0034ACF4 /* QPHomeColumn.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = QPHomeColumn.plist; sourceTree = "<group>"; };
 		28CD8CB02584B90000B0512F /* QPTemplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QPTemplate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		28CD8CBD2584B90000B0512F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		28CD8CC02584B90000B0512F /* QPTemplate.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = QPTemplate.xcdatamodel; sourceTree = "<group>"; };
@@ -91,6 +148,35 @@
 		28CD8D942584DA9700B0512F /* QPTestPresentViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QPTestPresentViewController.m; sourceTree = "<group>"; };
 		28CD8D992584DD3A00B0512F /* UIColor+Random.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+Random.h"; sourceTree = "<group>"; };
 		28CD8D9A2584DD3A00B0512F /* UIColor+Random.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Random.m"; sourceTree = "<group>"; };
+		28CD8DB02585D4F800B0512F /* QPHTTPManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QPHTTPManager.h; sourceTree = "<group>"; };
+		28CD8DB12585D4F800B0512F /* QPHTTPManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QPHTTPManager.m; sourceTree = "<group>"; };
+		28CD8DB62585E2C500B0512F /* QPAPIConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QPAPIConfig.h; sourceTree = "<group>"; };
+		28CD8DBA2585E8CB00B0512F /* QPBaseModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QPBaseModel.h; sourceTree = "<group>"; };
+		28CD8DBB2585E8CB00B0512F /* QPBaseModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QPBaseModel.m; sourceTree = "<group>"; };
+		28CD8DC02585F67000B0512F /* QPCacheHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QPCacheHelper.h; sourceTree = "<group>"; };
+		28CD8DC12585F67000B0512F /* QPCacheHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QPCacheHelper.m; sourceTree = "<group>"; };
+		28CD8DC62585F68700B0512F /* QPEncryptHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QPEncryptHelper.h; sourceTree = "<group>"; };
+		28CD8DC72585F68700B0512F /* QPEncryptHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QPEncryptHelper.m; sourceTree = "<group>"; };
+		28CD8DCC2585F95B00B0512F /* QPTestURLModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QPTestURLModel.h; sourceTree = "<group>"; };
+		28CD8DCD2585F95B00B0512F /* QPTestURLModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QPTestURLModel.m; sourceTree = "<group>"; };
+		28CD8DD22585F97500B0512F /* QPTestPublicKeyModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QPTestPublicKeyModel.h; sourceTree = "<group>"; };
+		28CD8DD32585F97500B0512F /* QPTestPublicKeyModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QPTestPublicKeyModel.m; sourceTree = "<group>"; };
+		28CD8DD82585FA1E00B0512F /* QPTestHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QPTestHandler.h; sourceTree = "<group>"; };
+		28CD8DD92585FA1E00B0512F /* QPTestHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QPTestHandler.m; sourceTree = "<group>"; };
+		28CD8DDF2586001B00B0512F /* DDRSAWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDRSAWrapper.h; sourceTree = "<group>"; };
+		28CD8DE02586001B00B0512F /* DDRSAWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDRSAWrapper.m; sourceTree = "<group>"; };
+		28CD8DE52586008800B0512F /* NSData+Hex.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSData+Hex.h"; sourceTree = "<group>"; };
+		28CD8DE62586008800B0512F /* NSData+Hex.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSData+Hex.m"; sourceTree = "<group>"; };
+		28CD8E00258610CF00B0512F /* QPBaseTabBar.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = QPBaseTabBar.plist; sourceTree = "<group>"; };
+		28CD8E0A258619DC00B0512F /* QPBaseTabBarModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QPBaseTabBarModel.h; sourceTree = "<group>"; };
+		28CD8E0B258619DC00B0512F /* QPBaseTabBarModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QPBaseTabBarModel.m; sourceTree = "<group>"; };
+		4142C3C9475AB26054AC52A1 /* Pods_QPTemplateTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QPTemplateTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7BE8012FA8C4EA96227A5E4 /* Pods-QPTemplate-QPTemplateUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QPTemplate-QPTemplateUITests.debug.xcconfig"; path = "Target Support Files/Pods-QPTemplate-QPTemplateUITests/Pods-QPTemplate-QPTemplateUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		AFB088B30B9D6AAF81A2487C /* Pods-QPTemplate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QPTemplate.release.xcconfig"; path = "Target Support Files/Pods-QPTemplate/Pods-QPTemplate.release.xcconfig"; sourceTree = "<group>"; };
+		B0B2711A2F3A504FBB13D54F /* Pods_QPTemplate_QPTemplateUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QPTemplate_QPTemplateUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE9CCE854BBB3EE3793D9DDF /* Pods-QPTemplate-QPTemplateUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QPTemplate-QPTemplateUITests.release.xcconfig"; path = "Target Support Files/Pods-QPTemplate-QPTemplateUITests/Pods-QPTemplate-QPTemplateUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D0CBD58B5B3D10C75545366B /* Pods_QPTemplate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QPTemplate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAB3DEC0A55F8DA130354EE9 /* Pods-QPTemplateTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QPTemplateTests.debug.xcconfig"; path = "Target Support Files/Pods-QPTemplateTests/Pods-QPTemplateTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +184,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31E1A023A35927D596DB3CF5 /* Pods_QPTemplate.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -105,6 +192,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				986C48A28E50F55F7D3E9096 /* Pods_QPTemplateTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,12 +200,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30CDF053CD585A9CA0209A87 /* Pods_QPTemplate_QPTemplateUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		173569C4B95A8C97E54C8F7A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D0CBD58B5B3D10C75545366B /* Pods_QPTemplate.framework */,
+				B0B2711A2F3A504FBB13D54F /* Pods_QPTemplate_QPTemplateUITests.framework */,
+				4142C3C9475AB26054AC52A1 /* Pods_QPTemplateTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		28CD8CA72584B90000B0512F = {
 			isa = PBXGroup;
 			children = (
@@ -125,6 +224,8 @@
 				28CD8CD12584B90100B0512F /* QPTemplateTests */,
 				28CD8CDC2584B90100B0512F /* QPTemplateUITests */,
 				28CD8CB12584B90000B0512F /* Products */,
+				7D5C1372567C9EDA82611A5B /* Pods */,
+				173569C4B95A8C97E54C8F7A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -209,6 +310,18 @@
 			children = (
 				28CD8D3E2584BCDA00B0512F /* QPHomeViewController.h */,
 				28CD8D3F2584BCDA00B0512F /* QPHomeViewController.m */,
+				2801ECFA2586523500E5B3F0 /* QPHomeFollowViewController.h */,
+				2801ECFB2586523500E5B3F0 /* QPHomeFollowViewController.m */,
+				2801ED002586525900E5B3F0 /* QPHomeRecommendViewController.h */,
+				2801ED012586525900E5B3F0 /* QPHomeRecommendViewController.m */,
+				2801ED062586529100E5B3F0 /* QPHomeLatestViewController.h */,
+				2801ED072586529100E5B3F0 /* QPHomeLatestViewController.m */,
+				28856465258652D40034ACF4 /* QPHomeVideoViewController.h */,
+				28856466258652D40034ACF4 /* QPHomeVideoViewController.m */,
+				2885646B258652E10034ACF4 /* QPHomeImageViewController.h */,
+				2885646C258652E10034ACF4 /* QPHomeImageViewController.m */,
+				28856471258652F00034ACF4 /* QPHomeTextViewController.h */,
+				28856472258652F00034ACF4 /* QPHomeTextViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -216,6 +329,13 @@
 		28CD8CF52584B9CD00B0512F /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				2885648F25866F500034ACF4 /* QPArticleModel.h */,
+				2885649025866F500034ACF4 /* QPArticleModel.m */,
+				2885649525866F660034ACF4 /* QPHomeCellFrame.h */,
+				2885649625866F660034ACF4 /* QPHomeCellFrame.m */,
+				2885649B25867EDE0034ACF4 /* QPHomeColumnModel.h */,
+				2885649C25867EDE0034ACF4 /* QPHomeColumnModel.m */,
+				288564A125867F0E0034ACF4 /* QPHomeColumn.plist */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -223,6 +343,10 @@
 		28CD8CF62584B9CD00B0512F /* View */ = {
 			isa = PBXGroup;
 			children = (
+				28856477258654710034ACF4 /* QPHomeTitleListView.h */,
+				28856478258654710034ACF4 /* QPHomeTitleListView.m */,
+				28856489258669700034ACF4 /* QPHomeTableViewCell.h */,
+				2885648A258669700034ACF4 /* QPHomeTableViewCell.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -282,6 +406,8 @@
 		28CD8CFD2584B9CD00B0512F /* Handler */ = {
 			isa = PBXGroup;
 			children = (
+				28CD8DD82585FA1E00B0512F /* QPTestHandler.h */,
+				28CD8DD92585FA1E00B0512F /* QPTestHandler.m */,
 			);
 			path = Handler;
 			sourceTree = "<group>";
@@ -302,6 +428,10 @@
 		28CD8CFF2584B9CD00B0512F /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				28CD8DCC2585F95B00B0512F /* QPTestURLModel.h */,
+				28CD8DCD2585F95B00B0512F /* QPTestURLModel.m */,
+				28CD8DD22585F97500B0512F /* QPTestPublicKeyModel.h */,
+				28CD8DD32585F97500B0512F /* QPTestPublicKeyModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -316,6 +446,9 @@
 		28CD8D012584B9CD00B0512F /* Network */ = {
 			isa = PBXGroup;
 			children = (
+				28CD8DB62585E2C500B0512F /* QPAPIConfig.h */,
+				28CD8DB02585D4F800B0512F /* QPHTTPManager.h */,
+				28CD8DB12585D4F800B0512F /* QPHTTPManager.m */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -419,6 +552,7 @@
 		28CD8D142584B9CD00B0512F /* Lib */ = {
 			isa = PBXGroup;
 			children = (
+				28CD8DDE2586001B00B0512F /* DDRSAWrapper */,
 			);
 			path = Lib;
 			sourceTree = "<group>";
@@ -457,6 +591,11 @@
 		28CD8D182584B9CD00B0512F /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				28CD8DBA2585E8CB00B0512F /* QPBaseModel.h */,
+				28CD8DBB2585E8CB00B0512F /* QPBaseModel.m */,
+				28CD8E0A258619DC00B0512F /* QPBaseTabBarModel.h */,
+				28CD8E0B258619DC00B0512F /* QPBaseTabBarModel.m */,
+				28CD8E00258610CF00B0512F /* QPBaseTabBar.plist */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -464,6 +603,10 @@
 		28CD8D192584B9CD00B0512F /* View */ = {
 			isa = PBXGroup;
 			children = (
+				2885647D258668890034ACF4 /* QPBaseTableView.h */,
+				2885647E258668890034ACF4 /* QPBaseTableView.m */,
+				28856483258668970034ACF4 /* QPBaseTableViewCell.h */,
+				28856484258668970034ACF4 /* QPBaseTableViewCell.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -475,8 +618,36 @@
 				28CD8D692584C02E00B0512F /* UIView+Frame.m */,
 				28CD8D992584DD3A00B0512F /* UIColor+Random.h */,
 				28CD8D9A2584DD3A00B0512F /* UIColor+Random.m */,
+				28CD8DE52586008800B0512F /* NSData+Hex.h */,
+				28CD8DE62586008800B0512F /* NSData+Hex.m */,
+				28CD8DC02585F67000B0512F /* QPCacheHelper.h */,
+				28CD8DC12585F67000B0512F /* QPCacheHelper.m */,
+				28CD8DC62585F68700B0512F /* QPEncryptHelper.h */,
+				28CD8DC72585F68700B0512F /* QPEncryptHelper.m */,
 			);
 			path = Tool;
+			sourceTree = "<group>";
+		};
+		28CD8DDE2586001B00B0512F /* DDRSAWrapper */ = {
+			isa = PBXGroup;
+			children = (
+				28CD8DDF2586001B00B0512F /* DDRSAWrapper.h */,
+				28CD8DE02586001B00B0512F /* DDRSAWrapper.m */,
+			);
+			path = DDRSAWrapper;
+			sourceTree = "<group>";
+		};
+		7D5C1372567C9EDA82611A5B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				083FFC1BD195F2D86A007355 /* Pods-QPTemplate.debug.xcconfig */,
+				AFB088B30B9D6AAF81A2487C /* Pods-QPTemplate.release.xcconfig */,
+				A7BE8012FA8C4EA96227A5E4 /* Pods-QPTemplate-QPTemplateUITests.debug.xcconfig */,
+				BE9CCE854BBB3EE3793D9DDF /* Pods-QPTemplate-QPTemplateUITests.release.xcconfig */,
+				EAB3DEC0A55F8DA130354EE9 /* Pods-QPTemplateTests.debug.xcconfig */,
+				15075E47DAB932452CB131A9 /* Pods-QPTemplateTests.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -486,9 +657,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 28CD8CE22584B90100B0512F /* Build configuration list for PBXNativeTarget "QPTemplate" */;
 			buildPhases = (
+				D2517D05245C99D9FB85611D /* [CP] Check Pods Manifest.lock */,
 				28CD8CAC2584B90000B0512F /* Sources */,
 				28CD8CAD2584B90000B0512F /* Frameworks */,
 				28CD8CAE2584B90000B0512F /* Resources */,
+				14A6F9C030EFF3A4B155ECFE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -503,6 +676,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 28CD8CE52584B90100B0512F /* Build configuration list for PBXNativeTarget "QPTemplateTests" */;
 			buildPhases = (
+				88DD06C8FBBAF5778A9E927A /* [CP] Check Pods Manifest.lock */,
 				28CD8CCA2584B90100B0512F /* Sources */,
 				28CD8CCB2584B90100B0512F /* Frameworks */,
 				28CD8CCC2584B90100B0512F /* Resources */,
@@ -521,9 +695,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 28CD8CE82584B90100B0512F /* Build configuration list for PBXNativeTarget "QPTemplateUITests" */;
 			buildPhases = (
+				2072A9E57254DF5420A5521A /* [CP] Check Pods Manifest.lock */,
 				28CD8CD52584B90100B0512F /* Sources */,
 				28CD8CD62584B90100B0512F /* Frameworks */,
 				28CD8CD72584B90100B0512F /* Resources */,
+				D3B24FF135AE427D2C3D0871 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -582,9 +758,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28CD8E01258610CF00B0512F /* QPBaseTabBar.plist in Resources */,
 				28CD8CC62584B90000B0512F /* LaunchScreen.storyboard in Resources */,
 				28CD8CC32584B90000B0512F /* Assets.xcassets in Resources */,
 				28CD8CBE2584B90000B0512F /* Main.storyboard in Resources */,
+				288564A225867F0E0034ACF4 /* QPHomeColumn.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -604,27 +782,153 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		14A6F9C030EFF3A4B155ECFE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QPTemplate/Pods-QPTemplate-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QPTemplate/Pods-QPTemplate-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-QPTemplate/Pods-QPTemplate-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2072A9E57254DF5420A5521A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QPTemplate-QPTemplateUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		88DD06C8FBBAF5778A9E927A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QPTemplateTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D2517D05245C99D9FB85611D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QPTemplate-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D3B24FF135AE427D2C3D0871 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QPTemplate-QPTemplateUITests/Pods-QPTemplate-QPTemplateUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QPTemplate-QPTemplateUITests/Pods-QPTemplate-QPTemplateUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-QPTemplate-QPTemplateUITests/Pods-QPTemplate-QPTemplateUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		28CD8CAC2584B90000B0512F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28CD8DB22585D4F800B0512F /* QPHTTPManager.m in Sources */,
+				2885648B258669700034ACF4 /* QPHomeTableViewCell.m in Sources */,
+				2885647F258668890034ACF4 /* QPBaseTableView.m in Sources */,
+				28CD8DDA2585FA1E00B0512F /* QPTestHandler.m in Sources */,
 				28CD8D402584BCDA00B0512F /* QPHomeViewController.m in Sources */,
+				28856473258652F00034ACF4 /* QPHomeTextViewController.m in Sources */,
+				28CD8DE72586008800B0512F /* NSData+Hex.m in Sources */,
 				28CD8D4C2584BCEB00B0512F /* QPVideoViewController.m in Sources */,
+				28CD8E0C258619DC00B0512F /* QPBaseTabBarModel.m in Sources */,
+				2885649D25867EDE0034ACF4 /* QPHomeColumnModel.m in Sources */,
+				28856479258654710034ACF4 /* QPHomeTitleListView.m in Sources */,
+				28856467258652D40034ACF4 /* QPHomeVideoViewController.m in Sources */,
 				28CD8D1C2584B9CD00B0512F /* SceneDelegate.m in Sources */,
 				28CD8D8F2584DA8D00B0512F /* QPTestPushViewController.m in Sources */,
 				28CD8D9B2584DD3A00B0512F /* UIColor+Random.m in Sources */,
 				28CD8D462584BCE200B0512F /* QPLiveViewController.m in Sources */,
+				28CD8DD42585F97500B0512F /* QPTestPublicKeyModel.m in Sources */,
+				28CD8DBC2585E8CB00B0512F /* QPBaseModel.m in Sources */,
+				28CD8DC22585F67000B0512F /* QPCacheHelper.m in Sources */,
 				28CD8D372584BCCD00B0512F /* QPBaseViewController.m in Sources */,
 				28CD8D6A2584C02E00B0512F /* UIView+Frame.m in Sources */,
+				28CD8DCE2585F95B00B0512F /* QPTestURLModel.m in Sources */,
 				28CD8D642584BD3F00B0512F /* QPBaseNavController.m in Sources */,
 				28CD8D1D2584B9CD00B0512F /* main.m in Sources */,
+				28CD8DE12586001B00B0512F /* DDRSAWrapper.m in Sources */,
 				28CD8CC12584B90000B0512F /* QPTemplate.xcdatamodeld in Sources */,
+				2885646D258652E10034ACF4 /* QPHomeImageViewController.m in Sources */,
+				2885649125866F500034ACF4 /* QPArticleModel.m in Sources */,
 				28CD8D582584BD0500B0512F /* QPTestViewController.m in Sources */,
 				28CD8D1E2584B9CD00B0512F /* AppDelegate.m in Sources */,
 				28CD8D952584DA9700B0512F /* QPTestPresentViewController.m in Sources */,
+				28856485258668970034ACF4 /* QPBaseTableViewCell.m in Sources */,
+				2801ECFC2586523500E5B3F0 /* QPHomeFollowViewController.m in Sources */,
 				28CD8D522584BCF700B0512F /* QPProfileViewController.m in Sources */,
+				2801ED022586525900E5B3F0 /* QPHomeRecommendViewController.m in Sources */,
+				28CD8DC82585F68700B0512F /* QPEncryptHelper.m in Sources */,
 				28CD8D5E2584BD2700B0512F /* QPBaseTabBarController.m in Sources */,
+				2801ED082586529100E5B3F0 /* QPHomeLatestViewController.m in Sources */,
+				2885649725866F660034ACF4 /* QPHomeCellFrame.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -793,6 +1097,7 @@
 		};
 		28CD8CE32584B90100B0512F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 083FFC1BD195F2D86A007355 /* Pods-QPTemplate.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -814,6 +1119,7 @@
 		};
 		28CD8CE42584B90100B0512F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFB088B30B9D6AAF81A2487C /* Pods-QPTemplate.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -835,6 +1141,7 @@
 		};
 		28CD8CE62584B90100B0512F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EAB3DEC0A55F8DA130354EE9 /* Pods-QPTemplateTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -855,6 +1162,7 @@
 		};
 		28CD8CE72584B90100B0512F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15075E47DAB932452CB131A9 /* Pods-QPTemplateTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -875,6 +1183,7 @@
 		};
 		28CD8CE92584B90100B0512F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7BE8012FA8C4EA96227A5E4 /* Pods-QPTemplate-QPTemplateUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8E5A83P9AJ;
@@ -893,6 +1202,7 @@
 		};
 		28CD8CEA2584B90100B0512F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE9CCE854BBB3EE3793D9DDF /* Pods-QPTemplate-QPTemplateUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8E5A83P9AJ;

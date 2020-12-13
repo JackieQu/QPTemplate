@@ -1,0 +1,6 @@
+framework module Pods_QPTemplateTests {
+  umbrella header "Pods-QPTemplateTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -18,11 +18,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 
-    self.view.backgroundColor = [UIColor randomColor];
+    self.view.backgroundColor = kWhiteColor;
     self.navigationItem.backBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"返回" style:UIBarButtonItemStylePlain target:nil action:nil];
     
     [self initUI];
-    [self loadData];
+//    [self loadData];
 }
 
 - (void)viewWillAppear:(BOOL)animated {

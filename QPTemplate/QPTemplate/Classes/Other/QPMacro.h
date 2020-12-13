@@ -14,13 +14,13 @@
 #define CONTENT_HEIGHT              (SCREEN_HEIGHT - STATUS_NAV_HEIGHT - TAB_BAR_HEIGHT)
 #define CONTENT_TAB_HEIGHT          (SCREEN_HEIGHT - STATUS_NAV_HEIGHT)
 
-#define STATUS_BAR_HEIGHT           (20.f + SAFE_MARGIN_TOP)
+#define STATUS_BAR_HEIGHT           [[UIApplication sharedApplication].windows.firstObject windowScene].statusBarManager.statusBarFrame.size.height
 #define NAV_BAR_HEIGHT              44.f
 #define STATUS_NAV_HEIGHT           (STATUS_BAR_HEIGHT + NAV_BAR_HEIGHT)
 #define TAB_BAR_HEIGHT              (49.f + SAFE_MARGIN_BOTTOM)
 
-#define SAFE_MARGIN_TOP             (iPhone_X_Later ? 24.f : 0.f)
-#define SAFE_MARGIN_BOTTOM          (iPhone_X_Later ? 34.f : 0.f)
+#define SAFE_MARGIN_TOP             (STATUS_BAR_HEIGHT > 20.f ? 24.f : 0.f)
+#define SAFE_MARGIN_BOTTOM          (STATUS_BAR_HEIGHT > 20.f ? 34.f : 0.f)
 
 #define STANDARD_WIDTH              375.f
 #define SCALE(value)                roundf(value / STANDARD_WIDTH * SCREEN_WIDTH)
@@ -32,8 +32,8 @@
                                     [str isKindOfClass:[NSNull class]] || [str isEqualToString:@"<null>"])
 #define isNullArr(arr)              (arr == nil || arr == Nil || arr == NULL || arr.count == 0 || \
                                     [arr isKindOfClass:[NSNull class]])
-#define isNullDic(dic)              (dic == nil || dic == Nil || dic == NULL || dic.allKeys.count == 0 || \
-                                    [dic isKindOfClass:[NSNull class]])
+#define isNullDict(dict)            (dict == nil || dict == Nil || dict == NULL || dict.allKeys.count == 0 || \
+                                    [dict isKindOfClass:[NSNull class]])
 
 #define kFontSize(size)             [UIFont systemFontOfSize:size]
 #define kFontSizeAndWeight(s,w)     [UIFont systemFontOfSize:s weight:w]
@@ -77,7 +77,7 @@
 #define iPhone_X                    (SCREEN_WIDTH == 375.f && SCREEN_HEIGHT == 812.f)
 #define iPhone_XS_Max               (SCREEN_WIDTH == 414.f && SCREEN_HEIGHT == 896.f)
 #define iPhone_12                   (SCREEN_WIDTH == 390.f && SCREEN_HEIGHT == 844.f)
-#define iPhone_12_Pro_Max           (SCREEN_WIDTH == 424.f && SCREEN_HEIGHT == 926.f)
+#define iPhone_12_Pro_Max           (SCREEN_WIDTH == 428.f && SCREEN_HEIGHT == 926.f)
 #define iPhone_12_mini              (SCREEN_WIDTH == 360.f && SCREEN_HEIGHT == 788.f)
 
 #define iPhone_X_Later              (iPhone_X || iPhone_XS_Max || iPhone_12 || iPhone_12_Pro_Max || iPhone_12_mini)
@@ -85,8 +85,8 @@
 #define BUNDLE_SHORT_VERSION        [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleShortVersionString"]
 #define BUNDLE_VERSION              [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleVersion"]
 #define SYSTEM_VERSION              [UIDevice currentDevice].systemVersion.floatValue
-#define iOS_9_Later                 (floorf(SYSTEM_VERSION) >= 9.0)
-#define iOS_11_Later                (floorf(SYSTEM_VERSION) >= 11.0)
+//#define iOS_9_Later                 (floorf(SYSTEM_VERSION) >= 9.0)
+//#define iOS_11_Later                (floorf(SYSTEM_VERSION) >= 11.0)
 #define iOS_13_Later                (floorf(SYSTEM_VERSION) >= 13.0)
 #define iOS_14_Later                (floorf(SYSTEM_VERSION) >= 14.0)
 

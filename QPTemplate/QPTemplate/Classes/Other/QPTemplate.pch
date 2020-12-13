@@ -16,4 +16,11 @@
 #import "UIView+Frame.h"
 #import "UIColor+Random.h"
 
+#import "QPHTTPManager.h"
+#import "QPAPIConfig.h"
+
+#import <MJExtension.h>
+#import <MJRefresh.h>
+#import <SDWebImage.h>
+
 #endif /* QPTemplate_pch */

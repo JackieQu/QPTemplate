@@ -8,6 +8,7 @@
 #import "QPBaseTabBarController.h"
 #import "QPBaseViewController.h"
 #import "QPBaseNavController.h"
+#import "QPBaseTabBarModel.h"
 
 @interface QPBaseTabBarController ()
 
@@ -18,31 +19,20 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    NSMutableArray *vcNames = [NSMutableArray arrayWithArray:@[
-        @"QPTestViewController",
-        @"QPHomeViewController",
-        @"QPLiveViewController",
-        @"QPVideoViewController",
-        @"QPProfileViewController",
-    ]];
-    NSArray *titles = @[@"测试", @"首页", @"直播", @"视频", @"我的"];
-    for (NSInteger i = 0; i < vcNames.count; i ++) {
-        QPBaseViewController *vc = [[[NSClassFromString(vcNames[i]) class] alloc] init];
-        vc.title = titles[i];
+    QPBaseTabBarModel *tabBarModel = [QPBaseTabBarModel tabBarModel];
+    NSMutableArray *vcArr = tabBarModel.availableVCArr;
+    for (NSInteger i = 0; i < vcArr.count; i ++) {
+        
+        QPViewControllerModel *vcModel = vcArr[i];
+        
+        QPBaseViewController *vc = [[vcModel.cls alloc] init];
+        vc.title = vcModel.vcTitle;
+        
         QPBaseNavController *navVC = [[QPBaseNavController alloc] initWithRootViewController:vc];
-        [vcNames replaceObjectAtIndex:i withObject:navVC];
+        [vcArr replaceObjectAtIndex:i withObject:navVC];
     }
-    self.viewControllers = vcNames;
+    self.viewControllers = vcArr;
+    self.selectedIndex = tabBarModel.defaultIndex;
 }
-
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 @end
